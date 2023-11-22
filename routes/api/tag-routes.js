@@ -59,7 +59,7 @@ router.put('/:id', async (req, res) => {
     console.log(error)
     res.status(500).json(error)
   }
-  // update a tag's name by its `id` value
+
 });
 
 router.delete('/:id', async (req, res) => {
